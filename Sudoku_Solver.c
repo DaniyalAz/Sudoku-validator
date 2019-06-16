@@ -34,6 +34,7 @@ int main(void){
 	sem_init(&semP, 0, 0);
 	pthread_t mythread[total_threads];
 	int valid_itr=0;
+	int mytemp_var=0, mytemp_var2=1;
 	pthread_mutex_init(&lock,NULL);
 
 	printf("\n\n-------ORIGINAL SUDOKU GRID-------\n\n");
